@@ -5,6 +5,11 @@ import java.util.Collections;
 
 public class ArrayLists {
 
+    // can contain many objects of the same type
+    // flexible
+    // implement List, add(), remove(), set(), clear(), get()...
+    // there is a regular array inside of it, replacing the previous with a new one when adding
+    // useful for storing and accessing data
     public static void main(String[] args) {
 
         // instanciating array lists
@@ -37,8 +42,6 @@ public class ArrayLists {
         // sorting alphabetically or numerically
         Collections.sort(cars);
         Collections.sort(numbers);
-
-
 
         System.out.println(cars);
     }
