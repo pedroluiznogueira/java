@@ -1,4 +1,4 @@
-package variables;
+package core.variables;
 
 public class Variables {
 

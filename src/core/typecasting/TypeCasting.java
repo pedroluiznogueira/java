@@ -1,4 +1,4 @@
-package type.casting;
+package core.typecasting;
 
 public class TypeCasting {
 

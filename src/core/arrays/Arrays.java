@@ -1,4 +1,4 @@
-package arrays;
+package core.arrays;
 
 public class Arrays {
 

@@ -1,4 +1,4 @@
-package operators;
+package core.operators;
 
 public class Operators {
 

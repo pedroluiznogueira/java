@@ -1,4 +1,4 @@
-package conditionals;
+package core.conditionals;
 
 public class Conditionals {
 

@@ -1,4 +1,4 @@
-package math;
+package core.math;
 
 public class Maths {
 

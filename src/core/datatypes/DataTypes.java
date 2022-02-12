@@ -1,4 +1,4 @@
-package data.types;
+package core.datatypes;
 
 public class DataTypes {
     int myNum = 5;               // Integer (whole number)

@@ -1,4 +1,4 @@
-package booleans;
+package core.booleans;
 
 public class Booleans {
 

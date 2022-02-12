@@ -1,4 +1,4 @@
-package switchs;
+package core.switchs;
 
 public class Switchs {
 

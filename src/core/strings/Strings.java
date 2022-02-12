@@ -1,4 +1,4 @@
-package strings;
+package core.strings;
 
 public class Strings {
 
