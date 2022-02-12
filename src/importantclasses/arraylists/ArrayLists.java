@@ -7,6 +7,7 @@ public class ArrayLists {
 
     // can contain many objects of the same type
     // flexible
+    // stores items in the inserted order
     // implement List, add(), remove(), set(), clear(), get()...
     // there is a regular array inside of it, replacing the previous with a new one when adding
     // useful for storing and accessing data

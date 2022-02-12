@@ -1,6 +1,5 @@
-package importantclasses.linkedlist;
+package importantclasses.linkedlists;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -8,6 +7,7 @@ public class LinkedLists {
 
     // can contain many objects of the same type
     // flexible
+    // stores items in the inserted order
     // implement List, add(), remove(), set(), clear(), get()...
     // the LinkedList store items in containers, each container points to the next
     // when adding a new container is created to place the new item inside of it
