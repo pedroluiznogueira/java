@@ -4,6 +4,12 @@ import java.util.HashMap;
 
 public class HashMaps {
 
+    // can contain items in a key: value format
+    // flexible
+    // don't store items in the inserted order
+    // implements Map interface
+    // duplicate keys are not allowed
+    // duplicate values are allowed
     public static void main(String[] args) {
 
         // instanciating hash maps
