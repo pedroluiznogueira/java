@@ -1,4 +1,4 @@
-package confitionals;
+package conditionals;
 
 public class Conditionals {
 
