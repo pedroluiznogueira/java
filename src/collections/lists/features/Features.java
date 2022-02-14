@@ -5,12 +5,15 @@ import java.util.*;
 public class Features {
 
     /*
-    * an ordered collection
-    * maintan the insertion order
-    * allows duplicate values
-    * can't be instanciated
-    * we use it by instanciating the concret classes
-    * wich implement the List interface
+     * don't contain new methods
+     * contains only the implemented methods
+     * from the interface Collection
+     * an ordered collection
+     * maintan the insertion order
+     * allows duplicate values
+     * can't be instanciated
+     * we use it by instanciating the concret classes
+     * wich implement the List interface
     */
     public static void main(String[] args) {
 
