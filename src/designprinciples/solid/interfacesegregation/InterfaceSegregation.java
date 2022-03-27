@@ -3,7 +3,7 @@ package designprinciples.solid.interfacesegregation;
 public class InterfaceSegregation {
 
     /**
-     * <p>- interface segregation statews that a client
+     * <p>- interface segregation states that a client
      * shouldn't be forced to implement an interface that
      * it doesn't use
      * <p>- it is kind of like the SRP but at an interface
