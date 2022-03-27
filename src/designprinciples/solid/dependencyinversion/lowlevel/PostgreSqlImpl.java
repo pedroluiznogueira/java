@@ -1,10 +1,10 @@
 package designprinciples.solid.dependencyinversion.lowlevel;
 
-import designprinciples.solid.dependencyinversion.abstraction.CustomerDao;
+import designprinciples.solid.dependencyinversion.abstraction.CustomerRepository;
 
 import java.util.List;
 
-public class CustomerDaoImpl implements CustomerDao {
+public class PostgreSqlImpl implements CustomerRepository {
 
     @Override
     public List<String> findNames() {

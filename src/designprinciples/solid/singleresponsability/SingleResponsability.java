@@ -7,81 +7,44 @@ public class SingleResponsability {
      * - like the Date class for data related features only
      * - a feeling of "and"
      *
-     * business rule
-     * - we have a class TextManipulator that have two concerns
-     * and responsabilities
-     * - 1. manipulating the text and 2. printing the text
-     *
-     * - we should be careful to avoid overthinking
-     * - following the SRP principle, our class will adhere to
-     * one functionality, so their methods and data will be
-     * concerned with one clear purpose
-     * - this means high cohesion
-     * - we should avoid breaking up stuff that we might think it
-     * is a responsability
-     * - for example:
-     * - WriteText and UpdateText wouldn't follow the SRP principle
-     * since they together are two tightly coupled, will probably
-     * be always used together
-     * - these methods may perform different operations, but they
-     * serve only one single purpose, text manipulation
-     *
     */
     public static void main(String[] args) {
 
     }
 }
 
-class TextManipulator {
-    private String text;
+class ProductService {
 
-    public TextManipulator(String text) {
-        this.text = text;
+    private NotificationService notificationService;
+
+    public void addProduct() {
+        System.out.println("add product logic...");
     }
 
-    public String getText() {
-        return text;
+    public Product getProduct() {
+        return null;
     }
 
-    public void appendText(String newText) {
-        text = text.concat(newText);
-    }
-
-    public String findWordAndReplace(String word, String replacementWord) {
-        if (text.contains(word)) {
-            text = text.replace(word, replacementWord);
-        }
-        return text;
-    }
-
-    public String findWordAndDelete(String word) {
-        if (text.contains(word)) {
-            text = text.replace(word, "");
-        }
-        return text;
-    }
-
-    public void printText() {
-        System.out.println(text);
+    public Product getProductById(Long id) {
+        return null;
     }
 }
 
-class TextPrinter {
-    TextManipulator textManipulator;
+class NotificationService {
 
-    public TextPrinter(TextManipulator textManipulator) {
-        this.textManipulator = textManipulator;
+    public void sendSms() {
+        System.out.println("sms sent");
     }
 
-    public void printText() {
-        System.out.println(textManipulator.getText());
+    public void sendHtmlEmail() {
+        System.out.println("email sent");
     }
 
-    public void printOutEachWordOfText() {
-        System.out.println(textManipulator.getText());
+    public void sendTextEmail() {
+        System.out.println("email sent");
     }
+}
 
-    public void printRangeOfCharacters(int startingIndex, int endIndex) {
-        System.out.println(textManipulator.getText().substring(startingIndex, endIndex));
-    }
+class Product {
+    private String name;
 }
